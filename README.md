@@ -24,7 +24,7 @@ You will hear back within 48 hours from us via email.
 
 ## Installation Using Docker
 
-> Clone the repository
+- Clone the repository
 
 ```bash
 docker-compose up --build
