@@ -22,8 +22,15 @@ This challenge involves writing a backend service for a classroom. The challenge
 
 You will hear back within 48 hours from us via email. 
 
+## Installation Using Docker
 
-## Installation
+> Clone the repository
+
+```bash
+docker-compose up --build
+```
+
+## Mannual Installation
 
 1. Fork this repository to your github account
 2. Clone the forked repository and proceed with steps mentioned below
@@ -35,6 +42,7 @@ virtualenv env --python=python3.8
 source env/bin/activate
 pip install -r requirements.txt
 ```
+
 ### Reset DB
 
 ```
@@ -56,3 +64,7 @@ pytest -vvv -s tests/
 # pytest --cov
 # open htmlcov/index.html
 ```
+
+## About Me
+
+I am Yash Bansal, a highly motivated and detail-oriented student currently pursuing a Bachelor of Technology in Artificial Intelligence and Machine Learning at Ajay Kumar Garg Engineering College in Ghaziabad, Uttar Pradesh. With a solid foundation in backend development, I have extensive experience working with Python and Django, and have developed several projects that demonstrate my proficiency in building robust and scalable applications. I have a keen interest in tackling complex technical challenges and enjoy working in fast-paced environments. My projects, such as VroomVroom, PyIntruder, Rupify, and BytePad, showcase my ability to develop efficient solutions using a variety of technologies and frameworks. Additionally, I have honed my skills in writing tests, managing databases like PostgreSQL, and utilizing tools like Git and Docker for version control and containerization. As a Python Developer at the Software Development Center - Software Incubator (SDC-SI), I have effectively collaborated with a large team, enhancing my teamwork and leadership abilities. I am committed to continuous learning and development, and I am eager to contribute my skills and knowledge to the Fyle team. My achievements, including national recognition in cybersecurity and success in various hackathons, reflect my dedication and capability in the field. I am excited about the opportunity to work remotely, where I can leverage my strong communication and documentation skills to contribute effectively to the team.
